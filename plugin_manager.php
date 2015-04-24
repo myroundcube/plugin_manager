@@ -8,7 +8,7 @@
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 # 
-# Copyright (c) 2012 - 2013 Roland 'Rosali' Liebl - all rights reserved.
+# Copyright (c) 2012 - 2015 Roland 'Rosali' Liebl - all rights reserved.
 # dev-team [at] myroundcube [dot] com
 # http://myroundcube.com
 # 
@@ -16,7 +16,7 @@ class plugin_manager extends rcube_plugin{
 
   private $rcmail;
   private $out;
-  private $svn = 'http://myroundcube.com/myroundcube-plugins/plugin-manager';
+  private $svn = 'https://myroundcube.com/myroundcube-plugins/plugin-manager';
   
   function init(){
     $this->rcmail = rcmail::get_instance();
